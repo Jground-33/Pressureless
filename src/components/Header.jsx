@@ -5,9 +5,9 @@ import { faTrophy, faBars } from '@fortawesome/free-solid-svg-icons';
 function Header() {
     return (
         <div className='header'>
-            <FontAwesomeIcon className='header--menu' icon={faBars} />
+            <FontAwesomeIcon className='icon header--menu' icon={faBars} />
             <h3>Pressureless</h3>
-            <FontAwesomeIcon className='header--trophy' icon={faTrophy} />
+            <FontAwesomeIcon className='icon header--trophy' icon={faTrophy} />
         </div>
     );
 }
